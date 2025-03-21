@@ -1,9 +1,14 @@
 {
   "generators": {
     "angular-library-generator": {
-      "factory": "./src/generators/angular-library-generator",
-      "schema": "./src/generators/schema.json",
+      "factory": "./src/generators/angular-library-generator/generator",
+      "schema": "./src/generators/angular-library-generator/schema.json",
       "description": "angular library generator"
+    },
+    "angular-application-generator": {
+      "factory": "./src/generators/angular-application-generator/generator",
+      "schema": "./src/generators/angular-application-generator/schema.json",
+      "description": "angular application generator"
     }
   }
 }
