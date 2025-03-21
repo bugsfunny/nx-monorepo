@@ -1,0 +1,9 @@
+{
+  "generators": {
+    "angular-library-generator": {
+      "factory": "./src/generators/angular-library-generator",
+      "schema": "./src/generators/schema.json",
+      "description": "angular library generator"
+    }
+  }
+}

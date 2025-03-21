@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@bt-libs/shared/ui/common-component": [
+        "libs/shared/ui/common-component/src/index.ts"
+      ],
+      "@nx-monorepo/my-plugin": ["tools/my-plugin/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
